@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--All paths are relative to this config file.  The variables [Engine.EngineDirectory], [Engine.PluginDirectory] and [Engine.JavaScriptPluginDirectory] can also be used-->
+<!--See DefaultSetting.xml for full name-> short name conversion -->
+<AlteryxJavaScriptPlugin>
+  <EngineSettings EngineDll="AlteryxRPluginEngine.dll" EngineDllEntryPoint="AlteryxR" SDKVersion="10.1" />
+  <GuiSettings Html="AlteryxRPluginGui.html" Icon="AlteryxRPluginIcon.png" Help="RecordID.htm" SDKVersion="10.1">
+    <InputConnections>
+      <Connection Name="Input" AllowMultiple="True" Optional="False" Type="Connection"/>
+    </InputConnections>
+    <OutputConnections>
+      <Connection Name="Output1" AllowMultiple="False" Optional="True" Type="Connection" Label="1"/>
+      <Connection Name="Output2" AllowMultiple="False" Optional="True" Type="Connection" Label="2"/>
+      <Connection Name="Output3" AllowMultiple="False" Optional="True" Type="Connection" Label="3"/>
+      <Connection Name="Output4" AllowMultiple="False" Optional="True" Type="Connection" Label="4"/>
+      <Connection Name="Output5" AllowMultiple="False" Optional="True" Type="Connection" Label="5"/>
+    </OutputConnections>
+  </GuiSettings>
+  <Properties>
+    <MetaInfo>
+      <NameIsFileName></NameIsFileName>
+      <Name>R</Name>
+      <Description></Description>
+      <RootToolName></RootToolName>
+      <ToolVersion></ToolVersion>
+      <ToolInDb></ToolInDb>
+      <CategoryName>Experiments</CategoryName>
+      <SearchTags></SearchTags>
+      <Author>Advanced Analytics</Author>
+      <Company>Alteryx, Inc</Company>
+      <Copyright>Alteryx, Inc</Copyright>
+      <DescriptionLink></DescriptionLink>
+    </MetaInfo>
+  </Properties>
+</AlteryxJavaScriptPlugin>
